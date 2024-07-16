@@ -23,7 +23,7 @@ class TestSyntaxError:
         '''
         multiplies two numbers
         '''
-        
+        2 * 3
         runpy.run_path('lib/a_syntax_error.py')
 
 class TestTypeError:
